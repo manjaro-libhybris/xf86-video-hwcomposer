@@ -31,8 +31,8 @@ prepare() {
 
 build() {
   cd ${pkgname}
-  export CPLUS_INCLUDE_PATH=/usr/iclude/android:/usr/include/android/hybris
-  export C_INCLUDE_PATH=/usr/iclude/android:/usr/include/android/hybris
+  export CPLUS_INCLUDE_PATH=/usr/include/android:/usr/include/android/hybris
+  export C_INCLUDE_PATH=/usr/include/android:/usr/include/android/hybris
   ./configure --prefix=/usr
   make
 }
